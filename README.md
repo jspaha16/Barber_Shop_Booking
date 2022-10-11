@@ -8,7 +8,7 @@ Starting production Application
 **npm run prod**
 
 
-Video Link:https://www.youtube.com/watch?v=wnTt-5M-MR8
+Video Link:https://youtu.be/nu9xkUFqY3c
 
 Heroku Link:https://power-rangers-barber-shop.herokuapp.com/
 
