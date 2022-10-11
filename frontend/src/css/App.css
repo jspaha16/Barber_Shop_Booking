@@ -1,0 +1,226 @@
+
+.active{
+    background: #f9f9f9;
+}
+.bookappointment{
+    background-color: white;
+    color: black;
+    border-radius: 8%;
+    
+
+}
+
+.bookingcard{
+    background-color: #000000;
+    color:wheat;
+    border: #f5deb3 1px solid;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    width:400px;
+    padding:1%;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.viewfield{
+    
+    color: #000;
+    margin: 25px;
+    display: inline-block;
+}
+
+.bookingfield{
+    
+    color: #000;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+}
+body{
+  overflow: auto ;
+}
+.home-page {
+    color: wheat;
+    background-color: #000000;
+    width: 100%;
+    height: 700px;
+   
+   
+    
+   
+  }
+  
+  /* form*/
+  .form {
+      background-color: white;
+      border-radius: 5px;
+      width: 550px;
+      margin: 20px auto;
+      padding: 20px;
+      /* height: 600px; */
+    }
+    
+    .form-body {
+      text-align: left;
+      padding: 20px 10px;
+    }
+    
+    .form-body > * {
+      padding: 5px;
+    }
+    
+    .form__label {
+      width: 40%;
+    }
+    
+    .form_input {
+      width: 60%;
+    }
+    
+    .footer {
+      text-align: center;
+    }
+    .login {
+      color: black;
+    }
+    
+    .checkbox {
+      margin-left: 3%;
+      margin-right: 1%;
+    }
+    /***********************NAVBAR***************************/
+    .nav {
+    background: linear-gradient(31deg, rgb(172, 172, 172) 18%, rgb(99, 99, 102) 53%);
+      color: wheat;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 2rem;
+      padding: 0 1rem;
+     
+  }
+  
+  
+  .site-title {
+      font-size: 2rem;
+  }
+  
+  
+  
+  .nav ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+  }
+  
+  .nav a {
+      color: inherit;
+      text-decoration: none;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0.25rem;
+  }
+  
+  .nav li.active {
+      background-color: rgb(175, 116, 79);
+  }
+  
+  .nav li:hover {
+      background-color: rgb(138, 88, 88);
+  }
+  /***********************USER NAVBAR****************************************/
+  .user-nav{
+    background: linear-gradient(31deg, rgb(172, 172, 172) 18%, rgb(99, 99, 102) 53%);
+    height: 100%;
+    color: #f5deb3 ;
+    text-decoration: none;
+    overflow-y: scroll;
+  }
+  
+  .user-nav a{
+    color: inherit;
+      text-decoration: none;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0.25rem;
+  }
+  .user-nav .list {
+      padding: 40px;
+  }
+  .user-nav .list .active {
+    background-color: inherit;
+    color: 	#D2691E;
+   }
+  
+  .user-nav .list:hover {
+      background-color: rgb(138, 88, 88);
+    width: 100%;
+    
+    
+  }
+  
+  /****************************About us**********************/
+  .about-us {
+   
+      margin: auto;
+    margin-top: 5%;
+      width: 50%;
+      border: 3px solid black;
+    color: black;
+      padding: 10px;
+  }
+  
+  /********************************HOMEPAGE*************************************/
+  
+  .home-logo{
+   margin-left: 30%;
+   margin-top: 5%;
+   
+  }
+  
+  .home-book{
+    border: 5px solid wheat;
+    color: wheat;
+    padding: 5px;
+    margin: auto;
+    width: 20%;
+    
+  }
+  
+  
+  .home-book:hover{
+    background-color: wheat;
+    color: black;
+    border: 5px solid #000000;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+   
+  
+  }
+  .msg{
+    color:red;
+    margin:2% ;
+    justify-content: center;
+    display: flex;
+   }
+   .notfound{
+    margin:auto;
+    width: 40%;
+    
+  }
+  .route-image{
+    width: 700px;
+    height: 600px;
+  }
+  

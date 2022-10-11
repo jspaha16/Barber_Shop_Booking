@@ -1,0 +1,33 @@
+{
+  "name": "barber_booking",
+  "version": "1.0.0",
+  "description": "Project for CAP805",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && cd backend && npm i && cd ../frontend && npm i",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && nodemon src/index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\"",
+    "heroku-postbuild": "npm run setup && cd frontend && npm run build",
+    "prod": "cd frontend && npm run build && cd ../backend && npm run dev",
+    "test": "cd backend && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimd19/Power-rangers-barber-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimd19/Power-rangers-barber-shop/issues"
+  },
+  "homepage": "https://github.com/alimd19/Power-rangers-barber-shop#readme",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
